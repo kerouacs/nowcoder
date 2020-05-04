@@ -1,21 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5637baae-0a46-4473-a996-d8fb4879adaa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/nowcoder/community/util/MailClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/resources/templates/mail/demo.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/test/java/com/nowcoder/community/MailTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/community/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="5637baae-0a46-4473-a996-d8fb4879adaa" name="Default Changelist" comment="邮箱功能">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +34,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/community" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1bSNFoEuwZLpVOLtwwn9Rixk3dJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -38,7 +49,7 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunManager" selected="JUnit.MapperTests">
     <configuration name="CommunityApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
@@ -89,6 +100,14 @@
       <option name="presentableId" value="Default" />
       <updated>1588621433383</updated>
     </task>
+    <task id="LOCAL-00001" summary="邮箱功能">
+      <created>1588621868450</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588621868450</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -101,27 +120,57 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/community" />
+    </ignored-roots>
+    <MESSAGE value="邮箱功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="邮箱功能" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1787" height="266" key="GridCell.Tab.0.bottom" timestamp="1588621619040">
+    <state width="1787" height="266" key="GridCell.Tab.0.bottom" timestamp="1588622033781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1787" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588621619040" />
-    <state width="1787" height="266" key="GridCell.Tab.0.center" timestamp="1588621619040">
+    <state width="1787" height="266" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588622033781" />
+    <state width="1787" height="266" key="GridCell.Tab.0.center" timestamp="1588622033781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1787" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588621619040" />
-    <state width="1787" height="266" key="GridCell.Tab.0.left" timestamp="1588621619040">
+    <state width="1787" height="266" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588622033781" />
+    <state width="1787" height="266" key="GridCell.Tab.0.left" timestamp="1588622033781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1787" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588621619040" />
-    <state width="1787" height="266" key="GridCell.Tab.0.right" timestamp="1588621619040">
+    <state width="1787" height="266" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588622033781" />
+    <state width="1787" height="266" key="GridCell.Tab.0.right" timestamp="1588622033781">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1787" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588621619040" />
-    <state x="476" y="74" key="SettingsEditor" timestamp="1588621473381">
+    <state width="1787" height="266" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588622033781" />
+    <state x="665" y="144" key="SettingsEditor" timestamp="1588622283380">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="476" y="74" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588621473381" />
+    <state x="665" y="144" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1588622283380" />
+    <state x="588" y="232" key="Vcs.Push.Dialog.v2" timestamp="1588622245030">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="588" y="232" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1588622245030" />
+    <state x="810" y="372" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1588622227541">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="810" y="372" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588622227541" />
   </component>
 </project>
