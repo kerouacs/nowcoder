@@ -19,26 +19,13 @@
     <select>
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5637baae-0a46-4473-a996-d8fb4879adaa" name="Default Changelist" comment="登录注册">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_penggle_kaptcha_2_3_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jhlabs_filters_2_0_235_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_4_0_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/community/src/main/java/com/nowcoder/community/config/KaptchaConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_5_4_21_00_[Default_Changelist]/shelved.patch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2020_5_4_21_00__Default_Changelist_.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/community/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/src/main/java/com/nowcoder/community/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/java/com/nowcoder/community/controller/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/src/main/resources/static/js/global.js" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/resources/static/js/global.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/community/src/main/resources/templates/site/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/community/src/main/resources/templates/site/login.html" afterDir="false" />
-    </list>
+    <list default="true" id="5637baae-0a46-4473-a996-d8fb4879adaa" name="Default Changelist" comment="验证码功能" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -54,6 +41,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
   </component>
   <component name="ProjectId" id="1bSNFoEuwZLpVOLtwwn9Rixk3dJ" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -162,7 +150,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588976443614</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="验证码功能">
+      <created>1589753415310</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589753415310</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,7 +165,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -198,7 +205,8 @@
     </ignored-roots>
     <MESSAGE value="邮箱功能" />
     <MESSAGE value="登录注册" />
-    <option name="LAST_COMMIT_MESSAGE" value="登录注册" />
+    <MESSAGE value="验证码功能" />
+    <option name="LAST_COMMIT_MESSAGE" value="验证码功能" />
   </component>
   <component name="WindowStateProjectService">
     <state x="199" y="295" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1588629357065">
@@ -209,6 +217,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="692" y="266" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1588975729319" />
+    <state x="109" y="134" width="1647" height="735" key="DiffContextDialog" timestamp="1589753837172">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="109" y="134" width="1647" height="735" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589753837172" />
     <state width="1787" height="215" key="GridCell.Tab.0.bottom" timestamp="1589753247046">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -253,6 +265,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="138" y="135" width="640" height="798" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1589749853168" />
+    <state x="635" y="288" key="git4idea.merge.GitPullDialog" timestamp="1589753481419">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="635" y="288" key="git4idea.merge.GitPullDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1589753481419" />
     <state x="810" y="372" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1588622227541">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
